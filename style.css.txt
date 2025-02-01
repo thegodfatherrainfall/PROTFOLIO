@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; /* Dark gray text */
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto; /* Center the sections */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    background-color: #fff; /* White section background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333; /* Underline for headings */
+    padding-bottom: 0.5rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd; /* Light gray border for projects */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative; /* To allow for sticky footer if needed */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Basic responsive styling */
+@media (max-width: 600px) {
+    nav li {
+        display: block; /* Stack navigation links vertically on smaller screens */
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+}
